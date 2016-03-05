@@ -4,58 +4,71 @@ using namespace std;
 int main()
 {
     double res,arg;
-    cout << "Введите данные первого числа=  ";
+    //Vvedi pervoe chislo
+    cout << "Vvod dannyh pervogo chisla=  ";
     cin >> arg;
-    cout << "Введите в какую степень нужно возвести= ";
+    //V kakuy stepen' vozvesti 
+    cout << "Vvedite  v kakuy stepen' nuzhno vozvesti= ";
     double st;
     cin >> st;
-    cout << "Вы вввели чилсо=" << arg <<endl;
+    //Vy vveli chislo
+    cout << "Vy vveli chislo=" << arg <<endl;
     res = sqrt(arg);
-    cout <<"Результат вычисления квартатного корня=  "
+    //Rezul'tat vychislenya kvadrat.cornya
+    cout <<"Rezultat' vychislenya kvadratnogo kornya=  "
          << res
          << endl;
-    cout << "Результат возведения в степень" << pow(arg,st) <<endl;
+         //Vozvedenie v stepen'
+    cout << "Rezul'tat  vozveden'ya v stepen'" << pow(arg,st) <<endl;
     double fast;
     fast = rand();
-    cout <<" А теперь случайное число=" << fast <<endl;
-      
-    cout << "Загадайте число, угадаю его=";
+    //Vvedi sluchainoe chislo
+    cout <<" A teper' sluchainoe  chislo=" << fast <<endl;
+      //Zagadka
+    cout << "Zagadaite  chislo, ygadauy ego=";
     int aster;
     cin >> aster;
     switch(aster)
                 {
-                       case 0: cout << "Ноль" ;
+                       case 0: cout << "Null" ;
                        break;
-                       case 1: cout << "Один";
+                       case 1: cout << "Odin";
                          break;
-                       case 2: cout << "Два";
+                       case 2: cout << "Dva";
                          break;
-                       case 3: cout << "Три";
+                       case 3: cout << "Three";
                          break;
-                         default: cout << "Я не угада, ты победил";
+                         default: cout << "Ya ne ugadal, you are  victory";
                  }      
-                 // а теперь калькулятор 
-                   cout << "Введите первое число= " <<endl;
+                 // A teper' kai'kulyator
+                 //Pervoe chislo
+                   cout << "Vvedi pervoe chislo= " <<endl;
                    int we;
                    cin >> we;
-                   cout << "Введите второе число= " ; 
+                   //Vtoroe chislo
+                   cout << "Vvdite vtoroe chislo= " ; 
                    int iop;
                    cin >> iop;
-                   cout << "Что с ними сделать=" << endl;
+                   //Vopros
+                   cout << "Chto s  nimi delat' =" << endl;
                    char fult;
                    cin >> fult;
                    switch (fult)
                           {
-         case '+' : cout << "Значить сложить, вот результат=" << (we+iop);
+                                //Slozhenie i rzul'tat
+         case '+' : cout << "Slozhit', i rezul'tat=" << (we+iop);
          break;
          case '-' : 
               {
-                  cout << "Значить вычесть, надо проверить числа" << endl;
+                  //Vychitanie-proverka chisla
+                  cout << "Vychitanie, nado ispravit' chisla" << endl;
                   int sum;
                   sum = we-iop;
-                  if (we>iop) cout << "Все нормально, вот результат=" << sum << endl;
+                  //Rezul'tat
+                  if (we>iop) cout << "All good:),i vot rezul'tat=" << sum << endl;
                   else
-                  cout << "Чувак результат бует отрицательный, но все эе=" << sum << endl;
+                  //Otvet
+                  cout << "Voy rezu'tat otricatel'nyu, i vse=" << sum << endl;
                   }
         break;
               
@@ -63,4 +76,5 @@ int main()
 system("pause");         
 return 0;
 }
+//Nikitin A.A  
           

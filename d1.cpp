@@ -7,14 +7,13 @@ int main()
     {
           int age,tr;
           setlocale(LC_ALL,"Russian");
-           SetConsoleCP(1251);
-    SetConsoleOutputCP(1251);
-          // Âûââîäèòñÿ ñîîáùåíèå
+          // Vvodit soobschenie
           cout <<"Hello, World!\n";
           cin >> age;
-          cout << "Âàøå ÷èñëî" << age;
+          //Vvodit chislo
+          cout << "Vashe chislo" << age;
           cin >> age;
           system("pause");
           return 0;
 }
-          
+//Nikitin A.A          

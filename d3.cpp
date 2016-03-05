@@ -4,18 +4,19 @@ using namespace std;
 int main()
 {
     double res,arg;
-    cout << "Введите данные первого числа=  ";
+    cout << "Vvedite dannye=  ";
     cin >> arg;
-    cout << "Введите в какую степень нужно возвести= ";
+    cout << "Vvedite stepen' v kakuy vozvesti chislo= ";
     double st;
     cin >> st;
-    cout << "Вы вввели чилсо=" << arg <<endl;
+    cout << "Vy vveli chislo=" << arg <<endl;
     res = sqrt(arg);
-    cout <<"Результат вычисления квартатного корня=  "
+    cout <<"Rezul'tat vychisleniya kvadratnogo cornya=  "
          << res
          << endl;
-    cout << "Результат возведения в степень" << pow(arg,st) <<endl;
+    cout << "Rezul'tat vozvedeniya v stepen'" << pow(arg,st) <<endl;
 system("pause");         
 return 0;
 }
+//Nikitin A.A  
           
